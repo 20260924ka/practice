@@ -1,9 +1,9 @@
 public class Book extends TangibleAsset{
-	private String isbn;
-	public Book(String name,int price, String color,String isbn) {
+	private String number;
+	public Book(String name,int price, String color,String number) {
 		super(name,price,color);
-		this.isbn = isbn;
+		this.number = number;
 	}
-	public String getIsdn() {return this.isbn;}
+	public String getIsdn() {return this.number;}
 
 }
